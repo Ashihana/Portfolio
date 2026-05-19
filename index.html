@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h3><span>Hello,</span> It's Me</h3>
+            <h1>Ashihana</h1>
+            <h3>And I'm a <span class="text">Web Developer</span></h3>
+            <div class="profile">
+                <img src="images/m2.png" alt="my image" class="profile-image">
+            </div>
+            <script src="main.js"></script>
+            <div class="home-sci">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#" class="btn-box">Download CV</a>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+
+    <!-- ---------about section---------------- -->
+    <section class="about" id="about">
+        <div class="about-text"><br><br><br>
+            <h2>About<span> Me</span></h2>
+            <h4>Web Developer!</h4>
+            <p>I'm Ashihana, a Computer Science graduate from Amal College of Advanced Studies, Nilambur, passionate about building web applications that are clean, functional, and user-friendly.
+                My experience spans the full stack — from crafting responsive interfaces with HTML, CSS, and JavaScript to building backend logic with Python, Django, and Flask.
+                During my internship at Softronics, Calicut, I worked on real-world Django projects covering authentication, CRUD operations, and MVC architecture,
+                which sharpened both my technical skills and my ability to ship production-ready code.
+                Beyond coursework, I've independently built projects like a full-featured NSS platform and a personal finance tracker — each one pushing me to solve real problems with practical solutions.
+                I'm a quick learner who loves turning ideas into working products.</p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My <span>Projects</span></h1>
+            <div class="services-list">
+                <div>
+                    <img src="images/portfolio.png" alt="Project 1" style="width: 335px; height: 150px;">
+                    <h2>Personal Website</h2>
+                    <p>Built this responsive portfolio to showcase my skills and projects..</p><br>
+                    <p><i class="italic">Technologies: HTML, CSS, JavaScript</i></p>
+                </div>
+                <div>
+                    <img src="images/nss-website.png" alt="Project 2" style="width: 335px; height: 150px;">
+                    <h2>Amal NSS Website</h2>
+                    <p>Built a comprehensive website for the NSS unit at Amal College.</p><br>
+                    <p><i class="italic">Technologies: HTML, CSS, JavaScript,PHP,MySQL</i></p>
+                </div>
+                <div>
+                    <img src="images/fin-track.png" alt="Project 3" style="width: 335px; height: 150px;">
+                    <h2>Fin-track</h2>
+                    <p>Built a personal finance tracker to help manage expenses and income.</p><br>
+                    <p><i class="italic">Technologies: Python, Flask, REST API</i></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <h1 class="sub-title">My <span>Skills</span></h1>
+
+    <section>
+        <div class="section"> 
+
+            <!-- LEFT: Technical Skills -->
+            <div class="container1">
+                <h1 class="heading1">Technical Skills</h1>
+                <div class="technical-bars">
+
+                    <div class="bar">
+                        <i class="bx bxl-html5" style="color: #147bbc;"></i>
+                        <div class="info"><span>HTML</span></div>
+                        <div class="progress-line progress-line-html"><span></span></div>
+                    </div>
+
+                    <div class="bar">
+                        <i class="bx bxl-css3" style="color: #147bbc;"></i>
+                        <div class="info"><span>CSS</span></div>
+                        <div class="progress-line progress-line-css"><span></span></div>
+                    </div>
+
+                    <div class="bar">
+                        <i class="bx bxl-javascript" style="color: #147bbc;"></i>
+                        <div class="info"><span>JavaScript</span></div>
+                        <div class="progress-line progress-line-javascript"><span></span></div>
+                    </div>
+
+                    <div class="bar">
+                        <i class="bx bxl-react" style="color: #147bbc;"></i>
+                        <div class="info"><span>React</span></div>
+                        <div class="progress-line progress-line-react"><span></span></div>
+                    </div>
+
+                    <div class="bar">
+                        <i class="bx bxl-python" style="color: #147bbc;"></i>
+                        <div class="info"><span>Python</span></div>
+                        <div class="progress-line progress-line-python"><span></span></div>
+                    </div>
+
+                    <div class="bar">
+                        <i class="bx bxl-php" style="color: #147bbc;"></i>
+                        <div class="info"><span>PHP</span></div>
+                        <div class="progress-line progress-line-php"><span></span></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- RIGHT: Professional Skills -->
+            <div class="container1">
+                <h1 class="heading1">Professional Skills</h1>
+                <div class="radial-bars">
+
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">90%</div>
+                        <div class="text">Creativity</div>
+                    </div>
+
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">70%</div>
+                        <div class="text">Communication</div>
+                    </div>
+
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">75%</div>
+                        <div class="text">Problem Solving</div>
+                    </div>
+
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">95%</div>
+                        <div class="text">Teamwork</div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div><!---end section skills -->
+    </section>
+
+
+
+    <!-- ----------contact section------------------>
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2><br>
+            <br>
+            <h4>Lets work Together</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, eaque.</p>
+                <div class="contact-list">
+                    <li><i class="bx bxs-envelope"></i>ashihanarafeeq08@gmail.com</li>
+                    <li><i class="bx bxs-phone"></i>+91 9895715504</li>
+                </div>
+                <div class="contact-icons">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                </div>
+                
+        </div>
+
+        <!----------contact form-----------------> 
+
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Your Name" class="input-box" required>
+                <input type="email" placeholder="Your Email" class="input-box" required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" class="input-box" required></textarea>
+                <button type="submit" class="btn-box">Send Message</button>
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer-bottom">
+        <p>Created by Ashihana | All Rights Reserved.</p>
+    </div>
+
+    </footer>
+
+</body>
+</html>
